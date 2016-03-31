@@ -14,10 +14,17 @@ module Redcarpet
          def image(link, title, content)
              # Check if we have a YouTube video
              if link.match /((http(s)?:\/\/)?)(www\.)?((youtube\.com\/)|(youtu.be\/))[\S]+/
-                 '<iframe width="420" height="315" src="'+link+'" frameborder="0" allowfullscreen></iframe>'
+                 id = get_youtube_video_id(link)
+                 '<iframe width="420" height="315" src="//www.youtube.com/embed/'+id+'" frameborder="0" allowfullscreen></iframe>'
              else
                  '<img src="'+link+'" title="'+title+'" alt="'+content+'">'
              end
+         end
+
+         def get_youtube_video_id (url)
+             regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/
+             match = url.match(regExp)
+             return match[2]
          end
      end
 
