@@ -1,7 +1,7 @@
 # encoding: utf-8
 Gem::Specification.new do |s|
   s.name = 'redcarpet_yt'
-  s.version = '0.0.4'
+  s.version = '0.1.0'
   s.summary = "Markdown that smells nice, now with YouTube embedding"
   s.description = 'A fast, safe and extensible Markdown to (X)HTML parser, with YouTube embedding, based on Redcarpet'
   s.date = '2016-03-31'
