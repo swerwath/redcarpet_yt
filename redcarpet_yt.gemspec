@@ -36,12 +36,12 @@ Gem::Specification.new do |s|
     ext/redcarpet/redcarpet.h
     ext/redcarpet/stack.c
     ext/redcarpet/stack.h
-    lib/redcarpet.rb
+    lib/redcarpet_yt.rb
     lib/redcarpet/cli.rb
     lib/redcarpet/compat.rb
     lib/redcarpet/render_man.rb
     lib/redcarpet/render_strip.rb
-    redcarpet.gemspec
+    redcarpet_yt.gemspec
     test/benchmark.rb
     test/custom_render_test.rb
     test/fixtures/benchmark.md
