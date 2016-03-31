@@ -1,7 +1,7 @@
 RedcarpetYT: Markdown with YouTube Embedding
 ============================================================
 
-RedcarpetYT is a Ruby library for Markdown processing that smells like, based on [Redcarpet](https://github.com/vmg/redcarpet)
+RedcarpetYT is a Ruby library for Markdown processing with YouTube embedding based on [Redcarpet](https://github.com/vmg/redcarpet)
 
 This library is written by people
 ---------------------------------
