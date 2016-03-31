@@ -9,7 +9,7 @@ RedcarpetYT is a Ruby library for Markdown processing that smells like, based on
 This library is written by people
 ---------------------------------
 
-RedcarpetYT was written by [Scott Werwath](https://github.com/swerwath)
+RedcarpetYT was written by [Scott Werwath](https://github.com/swerwath).
 
 RedcarpetYT is an extension of Redcarpet, which was written by [Vicent Martí](https://github.com/vmg). It is maintained by
 [Robin Dupret](https://github.com/robin850) and [Matt Rogers](https://github.com/mattr-).
