@@ -28,7 +28,7 @@ The RedcarpetYT source is available at GitHub:
     $ git clone git://github.com/swerwath/redcarpet_yt.git
 
 
-And it's like *really* simple to use
+And it's like simple to use
 ------------------------------------
 
 The core of the Redcarpet library is the `Redcarpet::Markdown` class. Each
