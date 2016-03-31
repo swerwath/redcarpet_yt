@@ -9,17 +9,17 @@ module Redcarpet
   end
 
   module Render
-      # Custom renderer to let our markdown include embedded Youtube videos
-      class HTMLwithYoutube < Redcarpet::Render::HTML
-          def image(link, title, content)
-              # Check if we have a YouTube video
-              if link.match /((http(s)?:\/\/)?)(www\.)?((youtube\.com\/)|(youtu.be\/))[\S]+/
-                  '<iframe width="420" height="315" src="'+link+'" frameborder="0" allowfullscreen></iframe>'
-              else
-                  super
-              end
-          end
-      end
+     # Custom renderer to let our markdown include embedded Youtube videos
+     class HTMLwithYoutube < Redcarpet::Render::HTML
+         def image(link, title, content)
+             # Check if we have a YouTube video
+             if link.match /((http(s)?:\/\/)?)(www\.)?((youtube\.com\/)|(youtu.be\/))[\S]+/
+                 '<iframe width="420" height="315" src="'+link+'" frameborder="0" allowfullscreen></iframe>'
+             else
+                 super
+             end
+         end
+     end
 
     # XHTML Renderer
     class XHTML < HTML
