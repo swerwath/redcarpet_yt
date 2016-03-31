@@ -10,12 +10,16 @@ module Redcarpet
 
   module Render
      # Custom renderer to let our markdown include embedded Youtube videos
-     class HTMLwithYoutube < Redcarpet::Render::HTML
+     class HTMLwithYouTube < Redcarpet::Render::HTML
          def image(link, title, content)
              # Check if we have a YouTube video
              if link.match /((http(s)?:\/\/)?)(www\.)?((youtube\.com\/)|(youtu.be\/))[\S]+/
                  id = get_youtube_video_id(link)
-                 '<iframe width="420" height="315" src="//www.youtube.com/embed/'+id+'" frameborder="0" allowfullscreen></iframe>'
+                 '</p>
+                 <div position="relative" padding-bottom="56.25%" padding-top="25px" height="0">
+                    <iframe position="absolute" top="0" bottom="0" width="100%" height="320tu" src="//www.youtube.com/embed/'+id+'" frameborder="0" allowfullscreen></iframe>
+                 </div>
+                 <p>'
              else
                  '<img src="'+link+'" title="'+title+'" alt="'+content+'">'
              end
