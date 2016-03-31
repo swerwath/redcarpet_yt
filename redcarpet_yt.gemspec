@@ -2,10 +2,10 @@
 Gem::Specification.new do |s|
   s.name = 'redcarpet_yt'
   s.version = '0.0.1'
-  s.summary = "Markdown that smells nice, now with Youtube embedding"
-  s.description = 'A fast, safe and extensible Markdown to (X)HTML parser, based on Redcarpet'
-  s.date = '2015-12-25'
-  s.email = 'vicent@github.com'
+  s.summary = "Markdown that smells nice, now with YouTube embedding"
+  s.description = 'A fast, safe and extensible Markdown to (X)HTML parser, with YouTube embedding, based on Redcarpet'
+  s.date = '2016-03-31'
+  s.email = 'swerwath@berkeley.edu'
   s.homepage = 'http://github.com/swerwath/redcarpet_yt'
   s.authors = ["Natacha Porté", "Vicent Martí", "Scott Werwath"]
   s.license = 'MIT'
