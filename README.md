@@ -1,4 +1,4 @@
-RedcarpetYT: Markdown with YouTube Embeds
+RedcarpetYT: Markdown with YouTube Embedding
 ============================================================
 
 [![Build Status](https://travis-ci.org/vmg/redcarpet.svg?branch=master)](https://travis-ci.org/vmg/redcarpet)
