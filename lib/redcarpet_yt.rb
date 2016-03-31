@@ -16,7 +16,7 @@ module Redcarpet
              if link.match /((http(s)?:\/\/)?)(www\.)?((youtube\.com\/)|(youtu.be\/))[\S]+/
                  '<iframe width="420" height="315" src="'+link+'" frameborder="0" allowfullscreen></iframe>'
              else
-                 Redcarpet::Render::HTML.image(link, title, content)
+                 '<img src="'+link+'" title="'+title+'" alt="'+content+'">'
              end
          end
      end
